@@ -1,6 +1,6 @@
-// const Welight = 68;
-const Welight = 68;
-const LONG = 1.7;
-let bmiStaus = Welight / (LONG * LONG);
 
-console.log(bmiStaus);
+let Welight = 68;
+let LONG = 1.7;
+let bmi  = Welight / (LONG * LONG);
+
+console.log(bmi);
