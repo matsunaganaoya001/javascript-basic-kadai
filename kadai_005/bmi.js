@@ -1,6 +1,6 @@
 
 let Welight = 68;
-let LONG = 1.7;
-let bmi  = Welight / (LONG * LONG);
+let long = 1.7;
+let bmi  = Welight / (long * long);
 
 console.log(bmi);
