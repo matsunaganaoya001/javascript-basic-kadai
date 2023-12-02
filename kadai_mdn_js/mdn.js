@@ -1,11 +1,12 @@
-const date1 = new Date (2023, 8 ,22);
+const today = () => {
 
-const year = date1.getFullYear();
-const month = date1.getMonth();
-const day = date1.getDate();
+var today1 = new Date ();
 
-const date2 = () => {
+const year = today1.getFullYear();
+const month = today1.getMonth()+1;
+const day = today1.getDate();
+
   console.log(year + '年' + month + '月' + day + '日');
 }
 
-date2();
+today();
